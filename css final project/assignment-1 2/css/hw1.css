@@ -1,0 +1,125 @@
+header {
+	height: 150px;
+	background-color: red;
+	padding: 10px;
+	background-image: url("../images/flywheel.jpg");
+	text-align: center;
+}
+
+body {
+	margin: 20px 0px 0px 20px;
+	padding: 0px;
+	height: 100%;
+}
+
+ nav {
+ 	text-align: center;
+}
+
+nav > a {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 5px;
+	display: inline-block;
+	font-family: "Times New Roman", Times, sans-serif;
+	text-decoration: none;
+	padding: 10px;
+	margin: 7px;
+	font-size: 15px;
+	width: 16%;
+	color: black;
+	font-weight: 400;
+}
+
+h1{
+	text-align: center;
+	color: #fafffe;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: "Times New Roman" , sans-serif , monospace;
+	font-weight: bold;
+}
+
+h2{
+	color: 	black;
+}
+
+.left{ 		/* aside*/
+	background-color: #448000;
+	display: inline-block;
+	height: 100vh;
+	width: 19%;	
+
+}
+
+.right {  	/*section*/
+	background-color: white;
+	width: 80%;
+	float: right;
+	font-family: "Times New Roman", Times, sans-serif;
+}
+
+img { 
+
+	width: 200px;
+	height: auto;
+	display: block;
+	border: solid 3px black;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.active { /* active tab */
+	background-color: white;
+	opacity: 1;`
+}
+
+table {
+	margin: 0 auto;
+	width: 70%;
+	height: 100vh;
+	border-radius: 2px;
+}
+
+table, th, td {
+	border: 3px solid white;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+th {
+	border-bottom-width: 2px;
+	border-bottom-color: green;
+	background: green;
+	background: -webkit-linear-gradient(#5cba0f, #aeea00);
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+
+}
+
+tr > th {
+	color: white;
+	font-weight: 1000;
+	text-align: left;
+}
+
+tr > td {
+	background-color: rgba(204,255,144, 0.6);
+	font-weight: 900;
+	color: rgba(0,0,0, 0.5);
+}
+ 
+tr > td:hover {
+		background-color: rgba(204,255,144, 1);
+		color: rgba(0,0,0, 1);
+}
+
+tr>td:nth-child(1) ~ td { /* select all child after the second column */
+	text-align: center;
+}
+
+
+tr>th:nth-child(1) ~ th { /* select all child after the second column */
+	text-align: center;
+}
+
